@@ -1,3 +1,6 @@
 https://dev.to/mrfrontend/git-101--step-2-add-stage-commit--push-3p3p
 https://support.atlassian.com/bitbucket-cloud/docs/change-the-remote-url-to-your-repository/
 https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+
+https://git-scm.com/book/en/v2/Appendix-B%3A-Embedding-Git-in-your-Applications-JGit
+https://maven.apache.org/guides/introduction/introduction-to-the-pom.html
