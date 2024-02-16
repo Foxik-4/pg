@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "a" > pipe3-input
+exec 3< pipe3-input
+tee pipe3-output <&3 > /dev/null
+
+# Redirect stdout to a file
+exec > output.log
+# stdout(echo) goes into stdout(this scrip) which goes into output.log
+echo "b"
+# If you want to stop redirection, you can use:
+# now why the hell does that work
+exec 1>&2
+ 
+# Rest of your script
+echo "Script finished."
